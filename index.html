@@ -26,6 +26,23 @@
 </head>
 
 <body>
+  <audio id="bg-music" autoplay loop hidden>
+      <source src="roshmusic.mp3" type="audio/mpeg" />
+    </audio>
+    <script>
+  window.addEventListener('DOMContentLoaded', function () {
+    const audio = document.getElementById('bg-music');
+    audio.play().catch(() => {
+      const startAudio = () => {
+        audio.play();
+        document.removeEventListener('click', startAudio);
+        
+      };
+      document.addEventListener('click', startAudio);
+      
+    });
+  });
+    </script>
 
   <!--
     - #MAIN

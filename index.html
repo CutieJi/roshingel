@@ -16,6 +16,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/aibot.css">
 
   <!--
     - google font link
@@ -1116,6 +1117,40 @@
 
       </article>
 
+      <div class="chat-bubble">
+        <button onclick="toggleChat()" class="bg-yellow-700 text-white rounded-full p-3 shadow-lg hover:bg-yellow-500 transition w-12 h-12 flex items-center justify-center">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0.0.0.0" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+            </svg>
+            <span>
+              <img src="assets/images/chatbot.svg">
+            </span>
+        </button>
+    </div>
+
+    <!-- Chat Overlay -->
+    <div id="chatOverlay" class="chat-overlay">
+        <div class="chat-header">
+            <h3 class="text-lg font-semibold">Chat with Me</h3>
+            <button onclick="toggleChat()" class="text-white hover:text-gray-200">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="chatBody" class="chat-body">
+            <div class="chat-message ai">Hi, I'm Rosh's AIBot, what do you want to know about me?</div>
+        </div>
+        <div class="chat-input">
+            <input id="chatInput" type="text" placeholder="Type your message..." onkeypress="if(event.key === 'Enter') sendMessage()">
+            <button onclick="sendMessage()">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
     </div>
 
   </main>
@@ -1129,6 +1164,8 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/aibot.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 
   <!--
     - ionicon link

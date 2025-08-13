@@ -32,7 +32,7 @@ body {
             display: flex;
         }
         .chat-header {
-            background: linear-gradient(to right, #ffff00, #ff69b4);
+            background: linear-gradient(to right, #ffff00, #ffa500);
             color: white;
             padding: 12px 16px;
             display: flex;
@@ -112,3 +112,4 @@ body {
             }
 
         }
+

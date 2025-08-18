@@ -7,7 +7,7 @@ body {
             right: 20px;
             z-index: 50;
             transition: transform 0.3s ease-in-out;
-            color: hsl(45, 100%, 72%);
+            color: hsl(296, 100%, 70%);
         }
         .chat-bubble:hover {
             transform: scale(1.1);
@@ -32,7 +32,7 @@ body {
             display: flex;
         }
         .chat-header {
-            background: linear-gradient(to right, #ffff00, #ffa500);
+            background: linear-gradient(to right, #fb4df8, #8a0096);
             color: white;
             padding: 12px 16px;
             display: flex;

@@ -94,6 +94,45 @@ const filterFunc = function (selectedValue) {
 
 }
 
+
+const numDots = 10; // number of dots in the snake
+const dots = [];
+
+for (let i = 0; i < numDots; i++) {
+  const dot = document.createElement('div');
+  dot.classList.add('cursor');
+  dot.style.width = `${20 - i * 1.5}px`;
+  dot.style.height = `${20 - i * 1.5}px`;
+  dot.style.opacity = `${1 - i * 0.08}`;
+  document.body.appendChild(dot);
+  dots.push({ el: dot, x: 0, y: 0 });
+}
+
+let mouseX = 0, mouseY = 0;
+
+window.addEventListener('mousemove', (e) => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+function animate() {
+  let x = mouseX;
+  let y = mouseY;
+
+  dots.forEach((dot, index) => {
+    dot.x += (x - dot.x) * 0.2;
+    dot.y += (y - dot.y) * 0.2;
+    dot.el.style.transform = `translate(${dot.x - dot.el.offsetWidth / 2}px, ${dot.y - dot.el.offsetHeight / 2}px)`;
+    x = dot.x;
+    y = dot.y;
+  });
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+
+
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
 

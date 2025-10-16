@@ -373,7 +373,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 405px;
+  max-height: 1000px;
 }
 
 .sidebar-info {
@@ -385,8 +385,30 @@ main {
 }
 
 .avatar-box {
+  width: 150px;              /* set the avatar box size */
+  height: 150px;
+  border-radius: 20%;        /* circular avatar */
+  overflow: hidden;          /* hide image overflow */
+  border: 2px solid var(--vegas-gold);
+  box-shadow: var(--shadow-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.avatar-box img {
+  width: 100%;               /* fill the box width */
+  height: 100%;              /* fill the box height */
+  object-fit: cover;         /* cover the box while keeping aspect ratio */
+  display: block;
+  border-radius: inherit;    /* match circular shape */
+}
+
+/* optional hover effect */
+.avatar-box:hover {
+  transform: scale(1.05);    /* subtle zoom on hover */
 }
 
 .info-content .name {

@@ -83,7 +83,7 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://roshingel1.netlify.app/",
+    link: "https://roshcard.netlify.app/",
   },
   intro: {
     display: true,

@@ -65,17 +65,12 @@ Docs available at: [Blog](https://roshingel.netlify.app/blog/quick-start)
 - Set up password protection for URLs
 
 ### Localization
-- A localized, earlier version of Magic Portfolio is available with the next-intl library
+- A localized, earlier version of Rosh's Portfolio is available with the next-intl library
 - To use localization, switch to the 'i18n' branch
 
 ## Creators
 
-Rosh Ingel: [Facebook](https://www.threads.net/@lorant.one) / [Github](https://www.linkedin.com/in/lorant-one/)
-
-## Get involved
-
-- Join the Design Engineers Club on [Discord](https://discord.com/invite/5EyAQ4eNdS) and share your project with us!
-- Deployed your docs? Share it on the [Once UI Hub](https://once-ui.com/hub) too! We feature our favorite apps on our landing page.
+Rosh Ingel: [Facebook](https://facebook.com/@roshuaz.xo) / [Github](https:/github.com/CutieJi/)
 
 ## License
 
@@ -85,7 +80,3 @@ Distributed under the CC BY-NC 4.0 License.
 - You can extend the license to [Dopler CC](https://dopler.app/license) by purchasing a [Once UI Pro](https://once-ui.com/pricing) license.
 
 See `LICENSE.txt` for more information.
-
-## Deploy with Vercel
-
-[![Deploy with Netlify](https://netlify.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fog%2Fhome.jpg)

@@ -56,7 +56,6 @@ Docs available at: [Blog](https://roshingel.netlify.app/blog/quick-start)
 ### Design
 - Responsive layout optimized for all screen sizes
 - Timeless design without heavy animations and motion
-- Endless customization options through [data attributes](https://once-ui.com/docs/theming)
 
 ### Content
 - Render sections conditionally based on the content file

@@ -14,7 +14,7 @@ import {
 import { home } from "./index";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://demo.magic-portfolio.com";
+const baseURL: string = "https://roshingel.netlify.app";
 
 const routes: RoutesConfig = {
   "/": true,
@@ -204,13 +204,13 @@ const sameAs: SameAsConfig = {
 const socialSharing: SocialSharingConfig = {
   display: true,
   platforms: {
-    x: true,
-    linkedin: true,
-    facebook: false,
-    pinterest: false,
+    x: false,
+    linkedin: false,
+    facebook: true,
+    pinterest: true,
     whatsapp: false,
     reddit: false,
-    telegram: false,
+    telegram: true,
     email: true,
     copyLink: true,
   },

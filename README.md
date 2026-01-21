@@ -2,15 +2,15 @@
 
 Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, an about / CV page and a gallery.
 
-View the demo [here](https://demo.magic-portfolio.com).
+View the demo [here](https://roshingel.netlify.app/).
 
-![Magic Portfolio](public/images/og/home.jpg)
+![Rosh's Portfolio](public/images/og/home.png)
 
 ## Getting started
 
 **1. Clone the repository**
 ```
-git clone https://github.com/once-ui-system/magic-portfolio.git
+git clone https://github.com/CutieJi/roshingel.git
 ```
 
 **2. Install dependencies**
@@ -38,11 +38,11 @@ src/resources/content.js
 Add a new .mdx file to src/app/blog/posts or src/app/work/projects
 ```
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+Rosh's Portfolio was built with [CutieJi](https://github.com/CutieJi/) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
 
 ## Documentation
 
-Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfolio/quick-start)
+Docs available at: [Blog](https://roshingel.netlify.app/blog/quick-start)
 
 ## Features
 
@@ -70,7 +70,7 @@ Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfo
 
 ## Creators
 
-Lorant One: [Threads](https://www.threads.net/@lorant.one) / [LinkedIn](https://www.linkedin.com/in/lorant-one/)
+Rosh Ingel: [Facebook](https://www.threads.net/@lorant.one) / [Github](https://www.linkedin.com/in/lorant-one/)
 
 ## Get involved
 

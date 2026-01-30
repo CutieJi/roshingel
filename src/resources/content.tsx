@@ -81,7 +81,7 @@ const about: About = {
   avatar: {
     display: true,
   },
-  calendar: {
+  contacts: {
     display: true,
     link: "https://roshcard.netlify.app/",
   },

@@ -56,7 +56,6 @@
             ['tora', 'Tora'],
             ['maia', 'Maia (maia.crimew.gay)'],
             ['vaporwave', 'Vaporwave (nya.rest)'],
-            ['ramxcodes', 'RamxCodes'],
         ],
         spriteSets = {
             idle: [[-3, -3]],

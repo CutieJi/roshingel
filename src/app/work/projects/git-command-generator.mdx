@@ -1,41 +1,68 @@
 ---
-title: "Git Command Generator in HTML, CSS and JAVASCRIPT"
-publishedAt: "2025-01-21"
-summary: "The Git Command Generator is a web-based tool built with HTML, CSS, and JavaScript that helps users quickly generate accurate Git commands for easier and error-free version control."
+title: "MISLend - Smart Equipment QR Tracking for UCC MIS"
+publishedAt: "2026-02-12"
+summary: "The MISLend is a smarter, paperless solution for managing classroom tools. Borrow projectors, cables, and devices instantly with QR scanning and real-time status updates."
 images:
   - "/images/projects/project-01/cover-06.png"
   - "/images/projects/project-01/cover-07.png"
 team:
-  - name: "Rosh Ingel"
+  - name: "R. Ingel"
     role: "Fullstack Engineer"
     avatar: "/images/avatar.png"
+    linkedIn: "https://github.com/CutieJi/"
+  - name: "K. Fermin"
+    role: "Project Head"
+    avatar: "/images/k.png"
+    linkedIn: "https://github.com/CutieJi/roshingel"
+  - name: "H. Combinido"
+    role: "UI/UX Designer"
+    avatar: "/images/heart.png"
+    linkedIn: "https://github.com/heartkvcf/"
+  - name: "A. De Guzman"
+    role: "System Architect"
+    avatar: "/images/alexia.png"
+    linkedIn: "https://github.com/CutieJi/roshin"
+  - name: "J. Bontogon"
+    role: "QA Lead"
+    avatar: "/images/james.png"
     linkedIn: "https://github.com/CutieJi/"
 ---
 
 ## Overview
 
-The Git Command Generator is a web-based tool designed to help users quickly generate Git commands without memorizing the syntax. Built using HTML, CSS, and JavaScript, the application provides an interactive interface where users can select actions such as cloning a repository, committing changes, or creating branches. Based on the user’s inputs, the tool dynamically generates the correct Git command, which can then be copied and used directly in the terminal. This project improves workflow efficiency, especially for beginners, by making Git commands easier to understand and apply.
+MISLend is a professional, high-performance web application designed for the UCC MIS Department (University of Caloocan City - Management Information Systems) to streamline the process of borrowing and returning technical equipment.
 
 ## Key Features
 
-- **Interactive Git Command Generator**: Built a web-based tool using HTML, CSS, and JavaScript that allows users to select Git actions and automatically generates accurate commands, which can be copied to the clipboard for easy use.
-- **Automatic Command Generatio**: Designed the system to generate correct Git commands in real time based on user inputs, reducing errors and saving time for both beginners and experienced developers.
-- **Copy-to-Clipboard Functionality**: Implemented a one-click copy feature that lets users transfer generated commands directly to their terminal, improving workflow efficiency and convenience.
-- **Beginner-Friendly Design**: Developed with simplicity in mind to help users learn Git commands easily, providing an accessible way to understand version control while improving productivity.
+- **Instant QR Borrowing**: Scan physical QR codes on equipment for immediate tracking.
+- **Real-time Availability**: Browse available projectors, laptops, networking kits, and more.
+- **Personal Dashboard**: Track your current borrows, history, and return deadlines.
+- **Simple Returns**: Hand back equipment and log it in seconds with condition reporting (Good/Damaged).
+- **Dedicated Dashboard**: Optimized workflow for faculty members.
+- **Equipment Reservation**: Ensure tools are ready for classroom sessions.
+- **Account Approval**: Verify and approve student registrations before they can borrow.
+- **Live Inventory Tracking**: Real-time counts of total, borrowed, and maintenance items.
+- **QR Generation**: Generate and download unique QR codes for new hardware directly from the dashboard.
+- **Automated Logging**: Export full transaction history to Excel/CSV for institutional audits.
+- **Maintenance Queue**: Flag damaged items for repair and track their status.
 
 ## Technologies Used
 
 - **HTML**: Used to structure the web pages and create the interactive interface for selecting Git actions.
 - **CSS**: Applied for styling the interface, ensuring a clean, responsive, and user-friendly design.
-- **Javascript**: Implemented the core functionality to dynamically generate Git commands based on user inputs.
-- **Clipboard API**: Integrated to enable one-click copying of generated commands for seamless use in the terminal.
+- **Javascript**: Implemented the core functionality to dynamically borrow/return based on user inputs.
+- **Firebase**: Built with a focus on ease of use, security, and administrative control, it leverages Firebase for real-time data synchronization and secure authentication, replacing traditional paper-based logs with a modern QR-driven solution.
 
 ## Challenges and Learnings
 
-During the development of the Git Command Generator, several challenges were encountered. Designing an interactive interface that was both intuitive and responsive required careful planning and testing. Implementing real-time command generation based on user inputs posed difficulties in ensuring accuracy and handling edge cases. Additionally, integrating the copy-to-clipboard functionality and making the tool beginner-friendly required extra attention to detail.
+The MIS currently doesn’t use any digital platform or system that records and tracks equipment borrowing of students and professors, using a manual log book instead for borrowing processes, where students write down the name, their name, equipment borrowed and signature.
 
-Through these challenges, valuable learnings were gained. The project enhanced skills in HTML, CSS, and JavaScript, particularly in DOM manipulation and event handling. It also strengthened problem-solving abilities and taught the importance of thorough testing to ensure correct outputs. Overall, the project improved understanding of user-centered design and demonstrated how to create functional tools that simplify complex tasks like version control.
+Through MISLend, students can browse through the available equipment first in the website, to prevent an unnecessary trip to the MIS. Monitoring and tracking of which student borrowed the equipment will be easier in the event that an equipment is due, not returned or came back damaged. The process of borrowing will be quicker and efficient through the website’s pre-borrowing system and QR code scanning.
 
 ## Outcome
 
-The Git Command Generator successfully provides an easy and efficient way for users to create accurate Git commands without memorizing syntax. It improves workflow by generating commands in real time and allowing one-click copying for direct use in the terminal. The tool is especially helpful for beginners, making version control more accessible while reducing errors and saving time. Overall, it serves as both a practical utility and a learning aid for understanding Git commands.
+The developed system, MISLend, provides a modern and centralized platform for managing equipment borrowing transactions within the school. The system allows administrators to efficiently monitor equipment availability, approve borrowing requests, manage users, and track borrowing history in real time. Through its dashboard interface, admins can quickly view statistics such as total equipment, currently borrowed items, pending approvals, and borrowing logs.
+
+For students, the system offers a more convenient and organized borrowing process by allowing them to request equipment digitally instead of relying on manual paper-based transactions. The integration of QR code scanning, approval workflows, and automated record management improves transaction accuracy, reduces processing time, and minimizes the risk of lost records.
+
+The expected outcome of the study is an improved equipment lending process that is faster, more accurate, secure, and easier to manage. The system also enhances accountability among borrowers and administrators by maintaining complete borrowing records and monitoring overdue returns. Overall, the implementation of the system is expected to increase operational efficiency and support better inventory management within the institution.
